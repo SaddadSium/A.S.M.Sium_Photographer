@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | A.S.M. Sium</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="overlay">
+        <nav class="navbar">
+            <div class="logo">SIUM</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main class="contact-container">
+            <section class="contact-details">
+                <h2>CONTACT DETAILS</h2>
+                <p class="name">A.S.M. Sium</p>
+                <div class="info-item">
+                    <svg viewBox="0 0 24 24" class="icon"><path d="M6.62 10.79a15.1 15.1 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.27 11.72 11.72 0 003.7.59 1 1 0 011 1V20a1 1 0 01-1 1A16 16 0 013 5a1 1 0 011-1h3.5a1 1 0 011 1 11.72 11.72 0 00.59 3.7 1 1 0 01-.27 1.11z"/></svg>
+                    <p><strong>Phone:</strong> +880 17957 71000</p>
+                </div>
+                <div class="info-item">
+                    <svg viewBox="0 0 24 24" class="icon"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                    <p><strong>Email:</strong> saddadsium.offical@gmail.com</p>
+                </div>
+                <div class="info-item">
+                    <svg viewBox="0 0 24 24" class="icon"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"/></svg>
+                    <p><strong>Address:</strong> House #49, Road #2, Hazaribagh, Dhaka</p>
+                </div>
+            </section>
+
+            <section class="contact-form">
+                <h2>SEND A MESSAGE</h2>
+                <form id="messageForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Project Description</label>
+                        <textarea id="description" rows="4" required></textarea>
+                    </div>
+                    <hr class="divider">
+                    <div class="button-container">
+                        <button type="submit" id="submitBtn" class="submit-btn">Submit</button>
+                        <button type="button" id="quoteBtn" class="submit-btn secondary">Get a Quote</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+
+        <div class="side-social-bar">
+            <a href="https://www.linkedin.com/in/asmsium748/" target="_blank">LinkedIn</a>
+            <a href="https://www.youtube.com/@saddadsium" target="_blank">YouTube</a>
+            <a href="https://www.instagram.com/saddad_sium/" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/saddadsium.official" target="_blank">Facebook</a>
+        </div>
+
+        <footer class="minimal-footer">
+            <p class="footer-copy">&copy; 2025 A.S.M. SIUM || ALL RIGHTS RESERVED</p>
+            <!-- <div class="footer-nav">
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="portfolio.html">PORTFOLIO</a>
+                <a href="contact.html">CONTACT</a>
+            </div> -->
+        </footer>
+    </div>
+    <script src="contact.js"></script>
+</body>
+</html>

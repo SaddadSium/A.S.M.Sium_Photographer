@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album View | A.S.M. Sium</title>
+    <link rel="stylesheet" href="portfolio-style.css">
+</head>
+<body>
+    <div class="overlay-bg">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Experts/2f.png" alt="Logo" class="logo-img">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <header class="portfolio-header">
+            <h2 id="album-title">Tanha | Wedding</h2>
+            <p>Dhaka, Bangladesh | 2025</p>
+            <a href="portfolio.html" class="back-btn">← Back to Gallery</a>
+        </header>
+
+        <main class="photo-gallery">
+            <div class="gallery-item">
+                <img src="Images/W4/1.jpg" alt="Photo 1" onclick="openLightbox(this)">
+            </div>
+            <div class="gallery-item">
+                <img src="Images/W4/2.jpg" alt="Photo 2" onclick="openLightbox(this)">
+            </div>
+            <div class="gallery-item">
+                <img src="Images/W4/3.jpg" alt="Photo 3" onclick="openLightbox(this)">
+            </div>
+            <div class="gallery-item">
+                <img src="Images/W4/4.jpg" alt="Photo 4" onclick="openLightbox(this)">
+            </div>
+            <div class="gallery-item">
+                <img src="Images/W4/5.jpg" alt="Photo 5" onclick="openLightbox(this)">
+            </div>
+            <div class="gallery-item">
+                <img src="Images/W4/6.jpg" alt="Photo 6" onclick="openLightbox(this)">
+            </div>
+            <div class="gallery-item">
+                <img src="Images/W4/7.jpg" alt="Photo 7" onclick="openLightbox(this)">
+            </div>
+            <div class="gallery-item">
+                <img src="Images/W4/8.jpg" alt="Photo 8" onclick="openLightbox(this)">
+            </div>
+            <div class="gallery-item">
+                <img src="Images/W4/9.jpg" alt="Photo 9" onclick="openLightbox(this)">
+            </div>
+            <div class="gallery-item">
+                <img src="Images/W4/10.jpg" alt="Photo 10" onclick="openLightbox(this)">
+            </div>
+             <div class="gallery-item">
+                <img src="Images/W4/11.jpg" alt="Photo 11" onclick="openLightbox(this)">
+            </div>
+             <div class="gallery-item">
+                <img src="Images/W4/1 (16).jpg" alt="Photo 12" onclick="openLightbox(this)">
+            </div>
+        </main>
+
+        <footer class="minimal-footer">
+            <p class="footer-copy">&copy; 2025 A.S.M. SIUM || ALL RIGHTS RESERVED</p>
+        </footer>
+    </div>
+
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close-btn">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | A.S.M. Sium</title>
+    <link rel="stylesheet" href="portfolio-style.css">
+</head>
+<body>
+    <div class="overlay-bg">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Experts/2f.png" alt="Logo" class="logo-img">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <header class="portfolio-header">
+            <h2>MY PHOTOGRAPHY ALBUMS</h2>
+            <p>Select a category to explore the collections</p>
+        </header>
+
+        <div class="filter-container">
+            <button class="filter-btn active" onclick="filterSelection('all')">All</button>
+            <button class="filter-btn" onclick="filterSelection('portrait')">Portrait</button>
+            <button class="filter-btn" onclick="filterSelection('wedding')">Wedding</button>
+            <button class="filter-btn" onclick="filterSelection('corporate')">Corporate</button>
+            <button class="filter-btn" onclick="filterSelection('fashion')">Fashion</button>
+            <button class="filter-btn" onclick="filterSelection('product')">Product</button>
+        </div>
+
+        <main class="gallery-grid">
+            
+            <a href="portrait-album-1.html" class="album-card" data-category="portrait">
+                <img src="PHOTOS/Portfolio/Portrait/1.jpg" alt="Portrait">
+                <div class="album-overlay"><span class="album-name">Portrait Collection 1</span></div>
+            </a>
+            <a href="portrait-album-2.html" class="album-card" data-category="portrait">
+                <img src="Images/PD2/cv.jpg" alt="Portrait">
+                <div class="album-overlay"><span class="album-name">Portrait In Lalbag</span></div>
+            </a>
+            <a href="portrait-album-3.html" class="album-card" data-category="portrait">
+                <img src="PHOTOS/Portfolio/Portrait/2.jpg" alt="Portrait">
+                <div class="album-overlay"><span class="album-name">Portrait Collection 3</span></div>
+            </a>
+
+            <a href="wedding-album-1.html" class="album-card" data-category="wedding">
+                <img src="Images/W1/cv.jpg" alt="Wedding">
+                <div class="album-overlay"><span class="album-name">Rahat X Nidhi</span></div>
+            </a>
+            <a href="wedding-album-2.html" class="album-card" data-category="wedding">
+                <img src="I" alt="Wedding">
+                <div class="album-overlay"><span class="album-name">Saadat X Fariya</span></div>
+            </a>
+            <a href="wedding-album-3.html" class="album-card" data-category="wedding">
+                <img src="Images/W3/cv.jpg" alt="Wedding">
+                <div class="album-overlay"><span class="album-name">Saadat X Fariya</span></div>
+            </a>
+            <a href="wedding-album-4.html" class="album-card" data-category="wedding">
+                <img src="Images/W4/cv.jpg" alt="Wedding">
+                <div class="album-overlay"><span class="album-name">Tanha's Wedding</span></div>
+            </a>
+            <a href="wedding-album-5.html" class="album-card" data-category="wedding">
+                <img src="PHOTOS/Portfolio/Wedding/2.jpg" alt="Wedding">
+                <div class="album-overlay"><span class="album-name">Saadat X Fariya</span></div>
+            </a>
+            <a href="wedding-album-6.html" class="album-card" data-category="wedding">
+                <img src="PHOTOS/Portfolio/Wedding/2.jpg" alt="Wedding">
+                <div class="album-overlay"><span class="album-name">Saadat X Fariya</span></div>
+            </a>
+            <a href="wedding-album-7.html" class="album-card" data-category="wedding">
+                <img src="Images/W7/cv.jpg" alt="Wedding">
+                <div class="album-overlay"><span class="album-name">Bappy X Neha</span></div>
+            </a>
+
+            <a href="corporate-album-1.html" class="album-card" data-category="corporate">
+                <img src="PHOTOS/Portfolio/Corporate/1.jpg" alt="Corporate">
+                <div class="album-overlay"><span class="album-name">Annual Summit</span></div>
+            </a>
+            <a href="corporate-album-2.html" class="album-card" data-category="corporate">
+                <img src="PHOTOS/Portfolio/Corporate/2.jpg" alt="Corporate">
+                <div class="album-overlay"><span class="album-name">Team Headshots</span></div>
+            </a>
+
+            <a href="fashion-album-1.html" class="album-card" data-category="fashion">
+                <img src="PHOTOS/Portfolio/Fashion/1.jpg" alt="Fashion">
+                <div class="album-overlay"><span class="album-name">Winter Editorial</span></div>
+            </a>
+            <a href="fashion-album-2.html" class="album-card" data-category="fashion">
+                <img src="PHOTOS/Portfolio/Fashion/2.jpg" alt="Fashion">
+                <div class="album-overlay"><span class="album-name">Summer Vibes</span></div>
+            </a>
+
+            <a href="product-album-1.html" class="album-card" data-category="product">
+                <img src="Images/P1/cv.jpg" alt="Product">
+                <div class="album-overlay"><span class="album-name">Traditional Kurti's</span></div>
+            </a>
+            <a href="product-album-2.html" class="album-card" data-category="product">
+                <img src="Images/P2/cv.jpg" alt="Product">
+                <div class="album-overlay"><span class="album-name">Hoodie</span></div>
+            </a>
+            <a href="product-album-3.html" class="album-card" data-category="product">
+                <img src="Images/P3/cv.jpg" alt="Product">
+                <div class="album-overlay"><span class="album-name">Saari</span></div>
+            </a>
+            <a href="product-album-4.html" class="album-card" data-category="product">
+                <img src="Images/P4/cv.jpg" alt="Product">
+                <div class="album-overlay"><span class="album-name">Three Piece</span></div>
+            </a>
+
+        </main>
+
+        <div class="side-social-bar">
+            <a href="#">LinkedIn</a>
+            <a href="#">YouTube</a>
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+        </div>
+
+        <footer class="minimal-footer">
+            <p class="footer-copy">&copy; 2025 A.S.M. SIUM || ALL RIGHTS RESERVED</p>
+        </footer>
+    </div>
+
+    <script src="portfolio-script.js"></script>
+</body>
+</html>
